@@ -64,7 +64,7 @@ export default function App() {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               {isMenuOpen ? (
-                <X className={scrolled ? "text-gray-900" : "text-white"} />
+                <X className={"text-gray-900" } />
               ) : (
                 <Menu className={scrolled ? "text-gray-900" : "text-white"} />
               )}
