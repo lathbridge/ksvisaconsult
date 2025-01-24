@@ -321,7 +321,7 @@ export default function App() {
                       placeholder="Email Address"
                       className="w-full px-4 py-3 rounded-lg border focus:border-blue-600 focus:ring-1 focus:ring-blue-600"
                     />
-                    <select required className="w-full px-4 py-3 rounded-lg border focus:border-blue-600 focus:ring-1 focus:ring-blue-600">
+                    <select required className="w-full px-4 py-3 rounded-lg border focus:border-blue-600 focus:ring-1 focus:ring-blue-600 appearance-none">
                       <option value="">Select Visa Type</option>
                       <option value="student">Tourist Visa</option>
                       <option value="student">Student Visa</option>
